@@ -1,0 +1,16 @@
+{
+  "name": "curso-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
+    "interface": "tsc basics/interface.ts --outdir dist/ && node dist/interface.js",
+    "custom": "tsc basics/custom.ts --outdir dist/ && node dist/custom.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
