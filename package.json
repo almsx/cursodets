@@ -9,7 +9,8 @@
     "enums": "tsc basics/enums.ts --outdir dist/ && node dist/enums.js",
     "interface": "tsc basics/interface.ts --outdir dist/ && node dist/interface.js",
     "custom": "tsc basics/custom.ts --outdir dist/ && node dist/custom.js",
-    "classes": "tsc basics/classes.ts --outdir dist/ && node dist/classes.js"
+    "classes": "tsc basics/classes.ts --outdir dist/ && node dist/classes.js",
+    "functions": "tsc basics/functions.ts --outdir dist/ && node dist/functions.js"
   },
   "keywords": [],
   "author": "",
